@@ -1,0 +1,163 @@
+/*header{
+	height: 100vh;
+	background-image: url("img.png");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+
+}*/
+/*body *{
+	border:1px solid black;
+}*/
+
+
+header{
+height: 110px;	
+display: flex;
+justify-content: space-around;
+ 
+
+}
+.znachoc{
+	width: 60px;
+	height: 60px;
+	background-image: url(ico_1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+}
+.contact{
+    width: 200px;
+	height: 110px;
+	display:inline-block;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px
+
+}
+.prichina{
+	width: 250px;
+	height: 150px;
+	display: flex;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+
+}
+.container{
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	color: #454547;
+	text-decoration:underline;
+	transition: all 0.3s ease;
+}
+.item:hover{
+	background:#454547;
+	color: #ffffff;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+/*.container div ul{
+	position: absolute;
+	min-width: 150px;	
+}*/
+
+
+.item:hover ul{
+	display: block;
+}
+
+.fa-shopping-cart ul, .fa-th-list ul{
+	position: absolute;
+	display: none;
+	list-style: none;
+	background:#454547;
+	color: white;
+	padding:0px;
+	z-index: 10;
+	border: 1px solid white;
+}
+.fa-shopping-cart li:hover, .fa-th-list li:hover{
+	background-color: white;
+}
+.fa-shopping-cart li:hover a, .fa-th-list li:hover a{
+	color:black;
+
+}
+.fa-shopping-cart li, .fa-th-list li{
+padding: 15px;
+}
+.fa-shopping-cart a, .fa-th-list a{
+	color: white;
+	margin: 15px;
+}
+
+.item{	
+padding:100px;
+background-color: #64b5f6;
+flex-grow: 1;
+border: 1px solid white;
+}
+.logo{
+	display: block;
+	margin:0 auto;
+	width: 100%;
+	filter: brightness(100%);
+	transform: translate(50px 50px);
+}
+body{
+	padding:0px 10%;
+}
+.zagalovok{
+	height: 90px;	
+    font-size: 30px;
+    justify-content: space-around;	
+    display: flex;
+    background: #c79e73;
+}
+footer{
+	background: #64b5f6;
+	height:70px;
+	text-align: center;
+	padding-top: 25px;
+	box-sizing: border-box;
+
+}
+footer a{
+	padding:0px 30px;
+	color:white;
+	font-size: 18px;
+	font-family: sans-serif;
+	
+
+}
+footer a:hover{
+	text-decoration: none;
+}
+.zapros{
+	border: 1px solid black;
+	width: 500px;
+	padding-left: 50px;
+	height: 50px;	
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;	
+   
+  
+
+}
+input{
+	width: 80%;
+	display: block;
+	padding: 15px;
+    margin:10px;
+
+}
+
+	
